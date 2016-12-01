@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Site Acessível</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<h1>
+						<a href="">
+							<figure>
+								<img class="img-responsive" tabindex="1" src="images/logo.png" alt="Imagem Notícias do Dia">			
+							</figure>
+						</a>
+					</h1>
+				</div>
+			</div>
+		</div>
+		<section role="main" id="main">
+			<div class="container">
+				<div class="row">
+					<div class="noticias-destaque">
+						<h2> ARTESANATO</h2>
+					</div>
+					<div class="col-md-12 padding-30">
+						<div class="col-md-12">
+							<a href=""><h1>Artesanato de Natal: Enfeite com fita de gorgurão</h1>
+							<p>Está em busca de um enfeite simples, e que sirva para decorar vários objetos e diferentes locais da casa? Que tal esse artesanato de Natal em formato de árvore?</p></a>
+						</div>
+						<div class="col-md-8">
+							<a href=""><h1>Materiais Necessários</h1>
+								<ul>
+									<li>Fita de gorgurão verde e marrom</li>
+									<li>Tesoura</li>
+									<li>Vela</li>
+									<li>Cola quente ou cola para tecido</li>
+									<li>Laço de fita para arrematar o trabalho</li>
+								</ul>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-md-12 padding-30">
+							<a href=""><h1>Passo a Passo</h1></a>
+						<div class="col-md-12">
+							<a href=""><h3> Passo 1 – Corte 3 pares de tiras de fita em tamanhos diferentes (observe a foto para ver como deve ficar)</h3></a>
+						</div>
+
+						<div class="col-md-12">
+							<a href=""><h3> Passo 2 – Cole as pontas de cada tira, que ficará no formato de gota.</h3></a>
+						</div>
+
+						<div class="col-md-12">
+							<a href=""><h3> Passo 3 – Cole as fitas maiores na fita marrom que será a base.</h3></a>
+						</div>
+
+						<div class="col-md-12">
+							<a href=""><h3> Passo 4 – Depois cole as gotas médias, e por último cole as menores.</h3></a>
+						</div>
+
+						<div class="col-md-12">
+							<a href=""><h3> Passo 5 – Faça um laço com uma fita prata ou dourada e cole no topo da árvore.</h3></a>
+						</div>
+
+						<div class="col-md-12">
+							<a href=""><h3> Esse enfeite pode ser utilizado na árvore de natal, em guirlandas, em cartões natalinos e em diversos acessórios que você desejar dar aquela incrementada. Esse enfeite fica um charme!</h3></a>
+						</div>
+
+							<div class="col-md-4">
+						<a href="">
+							<img src="images/enfeite-de-natal-arvore-de-fita-de-gorgurao.jpg" alt="Imagem Enfeite de natal arvore de fita de gorgurão resultado final" class="img-responsive">
+						</a>
+					</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+			<hr>
+			<!-- INÍCIO DO RODAPÉ-->
+			<footer>
+				<div class="footer">	
+					<strong class="text-muted">Site Acessível - v.3</strong>
+					<p class="text-muted"><b>Projeto:</b> <i>Estratégias de Acessibilidade para o design de interfaces de sistemas para internet.</i></p>
+					<p class="text-muted"><b>Orientador:</b> <i>Marcos Alexandre Rose Silva</i></p>
+					<p class="text-muted"><b>Aluno:</b> <i>Vinícius Diehl de Franceschi</i></p>
+				</div>
+			</footer>
+			<!-- FIM DO RODAPÉ -->
+			<section class="menus">	
+				<nav role="navigation">
+					<div class="col-md-10">
+						<ul class="menu-lista" role="menubar">
+							<li role="menuitem"><a href="artesanato.html" title="Artesanato">Artesanato</a></li>
+							<li role="menuitem"><a href="" title="Música">Música</a></li>
+							<li role="menuitem"><a href="" title="Novelas">Novelas</a></li>
+							<li role="menuitem"><a href="" title="Times">Times</a></li>
+						</ul>
+
+					</div>
+					<div class="col-md-12">
+						<div class="menu-acessivel">
+							<ul role="menubar" class="menu-acessivel">
+								<li role="menuitem"><a id="aumentar" class="btn btn-default" type="button" value="+">Aumentar Letra</a></li>
+								<li role="menuitem"><a class="btn btn-default" id="diminuir" type="button" value="-" title="Diminur Letra"  >Diminur Letra</a></li>
+								<li role="menuitem"><a id="normal" class="btn btn-default" type="button" onclick="fonte('c')" title="Letra Normal"  >Letra Normal</a></li>
+								<li role="menuitem"><a class="btn btn-default" type="button" value="Cor" onclick="setActiveStyleSheet('fundo_preto');
+									return false;" title="Auto Contraste" style="background-color: black; color: white;">Auto Contraste</a>
+									</li>
+								<li role="menuitem"><a class="btn btn-default" type="button" value="CorPadrao" onclick="setActiveStyleSheet('fundo_original');
+									return false;" title="Cores Originais">Cores Originais</a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</section>
+		<script src="js/jquery.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/resize-font.js"></script>
+	</body>
+</html>

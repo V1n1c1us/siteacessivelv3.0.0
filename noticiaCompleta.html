@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Site Acessível</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<h1>
+						<a href="">
+							<figure>
+								<img class="img-responsive" src="images/logo.png" alt="Imagem Notícias do Dia">			
+							</figure>
+						</a>
+					</h1>
+				</div>
+
+			</div>
+		</div>
+		<section role="main" id="main">
+			<div class="container">
+				<div class="row">
+					<div class="noticias-destaque">
+						<h2> NOTÍCIAS EM DESTAQUE</h2>
+					</div>
+					<div class="col-md-12">
+						<div class="col-md-4">
+							<a href="">
+								<img src="images/imgTimes.JPG" alt="Imagem da Notícia" class="img-responsive">
+							</a>
+						</div>
+						<div class="col-md-8">
+							<a href=""><h1>De olho em corte e na Argentina, Seleção tem seis pendurados em Natal</h1>
+								<p>Cinco deles serão titulares: Daniel Alves, Filipe Luís, Giuliano, Miranda e Neymar. Tite garante que nenhum jogador do Brasil vai forçar cartão para enfrentar os hermanos</p></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr>
+			<!-- INÍCIO DO RODAPÉ-->
+			<footer>
+				<div class="footer">	
+					<strong class="text-muted">Site Acessível - v.3</strong>
+					<p class="text-muted"><b>Projeto:</b> <i>Estratégias de Acessibilidade para o design de interfaces de sistemas para internet.</i></p>
+					<p class="text-muted"><b>Orientador:</b> <i>Marcos Alexandre Rose Silva</i></p>
+					<p class="text-muted"><b>Aluno:</b> <i>Vinícius Diehl de Franceschi</i></p>
+				</div>
+			</footer>
+			<!-- FIM DO RODAPÉ -->
+			<section class="menus">	
+				<nav role="navigation">
+					<div class="col-md-10">
+						<ul class="menu-lista" role="menubar">
+							<li role="menuitem"><a href="" title="Artesanato">Artesanato</a></li>
+							<li role="menuitem"><a href="" title="Música">Música</a></li>
+							<li role="menuitem"><a href="" title="Novelas">Novelas</a></li>
+							<li role="menuitem"><a href="" title="Times">Times</a></li>
+						</ul>
+
+					</div>
+					<div class="col-md-12">
+						<div class="menu-acessivel">
+							<ul role="menubar" class="menu-acessivel">
+								<li role="menuitem"><a id="aumentar" class="btn btn-default" type="button" value="+">Aumentar Letra</a></li>
+								<li role="menuitem"><a class="btn btn-default" id="diminuir" type="button" value="-" title="Diminur Letra"  >Diminur Letra</a></li>
+								<li role="menuitem"><a id="normal" class="btn btn-default" type="button" onclick="fonte('c')" title="Letra Normal"  >Letra Normal</a></li>
+								<li role="menuitem"><a class="btn btn-default" type="button" value="Cor" onclick="setActiveStyleSheet('fundo_preto');
+									return false;" title="Auto Contraste" style="background-color: black; color: white;">Auto Contraste</a>
+									</li>
+								<li role="menuitem"><a class="btn btn-default" type="button" value="CorPadrao" onclick="setActiveStyleSheet('fundo_original');
+									return false;" title="Cores Originais">Cores Originais</a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</section>
+		<script src="js/jquery.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/resize-font.js"></script>
+	</body>
+</html>

@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{color: black;}
+.padding-30{ padding: 20px;}
+section.menus{
+	position: absolute;
+    top: 0%;
+    left: 20%;
+}
+/*****MENU****/
+ul.menu-lista{
+	list-style: none;
+	text-align: right;
+}
+
+ul.menu-lista li{
+	display: inline-block;
+	padding: 20px;
+	font-size: 24px;
+}
+
+ul.menu-lista li a{
+	text-decoration: none;
+	color: #333333;
+}
+
+/*****MENU****/
+.menu-acessivel{
+	text-align: center;
+}
+ul.menu-acessivel{
+	list-style: none;
+	text-align: right;
+}
+
+ul.menu-acessivel li{
+	display: inline-block;
+	padding: 20px;
+	font-size: 24px;
+}
+
+ul.menu-acessivel li a{
+	text-decoration: none;
+	color: #333333;
+}
+
+img.natal{
+    height: 195px;
+    width: 100%;
+}
+/*********/
+
+/*****MEIO****/
+.noticias-destaque h2{
+	margin-bottom: 100px;
+	margin-top: 150px; 
+	text-align: center;
+}
+
+.footer{
+	margin-top: 40px;
+    text-align: center;
+}
