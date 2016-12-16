@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Site Acessível</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<h1>
+						<a href="">
+							<figure>
+								<img class="img-responsive" src="images/logo.png" alt="Imagem Notícias do Dia">			
+							</figure>
+						</a>
+					</h1>
+				</div>
+
+			</div>
+		</div>
+		<section role="main" id="main">
+			<div class="container">
+				<div class="row">
+					<div class="noticias-destaque">
+						<h2>Steven Tyler nega fim do Aerosmith: 'Joe Perry sempre vai voltar para mim'</h2>
+					</div>
+					<div class="col-md-12">
+						<div class="col-md-4">
+								<img src="images/dsc_4759_MPh44Oo.jpg" height="465" width="620" alt="Imagem da Notícia" class="img-responsive">
+						</div>
+						<div class="col-md-8">
+								<p>
+									Parece caso de amor de música sertaneja, mas é só uma tentativa de definir o status do relacionamento do Aerosmith nos últimos meses: depois de falarem de possível separação, agora Steven Tyler diz ao G1 que a banda de rock pode brigar, mas "não acha que ninguém pode separá-los". "Rompemos cinco vezes antes e sempre voltamos depois", diz.
+Os shows desta sexta-feira em Olinda (PE) (veja serviço abaixo) e do Rock in Rio 2017, então, não serão necessariamente despedidas, pelo que ele diz. O vocalista afirma que a banda não tem plano além da turnê de 2017, mas que "não importa o que Joe Perry [guitarrista] decida fazer no futuro, ele sempre vai voltar para tocar comigo".
+Na conversa por telefone, o tagarela Tyler discorre sobre os cartazes dos fãs sul-americanos, canta músicas do Foreigner e de "A dama e o vagabundo" e entrevista o repórter sobre quantos anos ele parece ter no palco. Depois de ouvir um generoso "18 anos", o cantor de 68 acha muito: diz que tem "coração de 12". Veja os melhores trechos da conversa abaixo:
+G1 - Nesse ponto da carreira, você não deve ter muitas 'primeiras vezes'. Mas sexta-feira será sua estreia em Olinda. Ainda fica nervoso com coisas assim?
+Steven Tyler - Eu me sinto colocando meu melhor vestido de festa para um “date” [encontro] com a cidade inteira. É como aquela música [canta ao telefone um pedaço de “Feels like the first time” do Foreigner]. Pode parecer egocêntrico, mas é que ir a um lugar pela primeira vez nos dá vontade de tocar ainda mais. Porque lembra de onde o Aerosmith veio: abrindo shows para o Kinks e outras bandas, esperando não ser chutado para fora do palco.
+G1 - Esta é sua sexta vez no Brasil. Existe alguma coisa daqui que tenha te marcado? O que gosta de fazer aqui?
+Steven Tyler – Gostamos de dar voltas nas cidades e saber onde vamos tocar. Dá para ver que as pessoas daqui levam a música muito a sério, como o futebol. Tanto que os dois rolam nos estádios e deixam os fãs loucos. As pessoas aqui ainda são diferentes, ainda não foram totalmente levadas pela internet e os celulares.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<hr>
+			<!-- INÍCIO DO RODAPÉ-->
+			<footer>
+				<div class="footer">	
+					<strong class="text-muted">Site Acessível - v.3</strong>
+					<p class="text-muted"><b>Projeto:</b> <i>Estratégias de Acessibilidade para o design de interfaces de sistemas para internet.</i></p>
+					<p class="text-muted"><b>Orientador:</b> <i>Marcos Alexandre Rose Silva</i></p>
+					<p class="text-muted"><b>Aluno:</b> <i>Vinícius Diehl de Franceschi</i></p>
+				</div>
+			</footer>
+			<!-- FIM DO RODAPÉ -->
+			<section class="menus">	
+				<nav role="navigation">
+					<div class="col-md-10">
+						<ul class="menu-lista" role="menubar">
+							<li role="menuitem"><a href="" title="Artesanato">Artesanato</a></li>
+							<li role="menuitem"><a href="" title="Música">Música</a></li>
+							<li role="menuitem"><a href="" title="Novelas">Novelas</a></li>
+							<li role="menuitem"><a href="" title="Times">Times</a></li>
+						</ul>
+
+					</div>
+					<div class="col-md-12">
+						<div class="menu-acessivel">
+							<ul role="menubar" class="menu-acessivel">
+								<li role="menuitem"><a id="aumentar" class="btn btn-default" type="button" value="+">Aumentar Letra</a></li>
+								<li role="menuitem"><a class="btn btn-default" id="diminuir" type="button" value="-" title="Diminur Letra"  >Diminur Letra</a></li>
+								<li role="menuitem"><a id="normal" class="btn btn-default" type="button" onclick="fonte('c')" title="Letra Normal"  >Letra Normal</a></li>
+								<li role="menuitem"><a class="btn btn-default" type="button" value="Cor" onclick="setActiveStyleSheet('fundo_preto');
+									return false;" title="Auto Contraste" style="background-color: black; color: white;">Auto Contraste</a>
+									</li>
+								<li role="menuitem"><a class="btn btn-default" type="button" value="CorPadrao" onclick="setActiveStyleSheet('fundo_original');
+									return false;" title="Cores Originais">Cores Originais</a></li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</section>
+		<script src="js/jquery.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/resize-font.js"></script>
+	</body>
+</html>
